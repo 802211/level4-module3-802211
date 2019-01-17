@@ -7,7 +7,7 @@ public class ExceptionMethods {
 		if(den == 0.0) {
 			throw new IllegalArgumentException();
 		} else {
-			x = num/den;
+			x = num/den; 
 		}
 		return x;
 	}
